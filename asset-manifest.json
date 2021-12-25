@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/akhi-portfolio-app/static/css/main.8a965312.css",
+    "main.js": "/akhi-portfolio-app/static/js/main.04bc25a1.js",
+    "static/js/787.f806014b.chunk.js": "/akhi-portfolio-app/static/js/787.f806014b.chunk.js",
+    "static/media/akhi-about-pic.jpg": "/akhi-portfolio-app/static/media/akhi-about-pic.d8b2ecdd0adeffdd95e8.jpg",
+    "static/media/contact-image.jpg": "/akhi-portfolio-app/static/media/contact-image.bddc8749fc95421aeed5.jpg",
+    "static/media/project3.jpg": "/akhi-portfolio-app/static/media/project3.82950d36221256f283a8.jpg",
+    "static/media/akhilesh_pic.jpg": "/akhi-portfolio-app/static/media/akhilesh_pic.2cfe200dd3f928e2fa06.jpg",
+    "static/media/project6.jpg": "/akhi-portfolio-app/static/media/project6.b9feb4e5a6adafe5c058.jpg",
+    "static/media/project5.jpg": "/akhi-portfolio-app/static/media/project5.59671b480165dbe79752.jpg",
+    "static/media/project2.jpg": "/akhi-portfolio-app/static/media/project2.ea46de1f210f9a4fc614.jpg",
+    "static/media/project1.png": "/akhi-portfolio-app/static/media/project1.7014e101248a111472ec.png",
+    "static/media/project4.jpg": "/akhi-portfolio-app/static/media/project4.a6a66ef28c6ca952f01f.jpg",
+    "static/media/background3.jpg": "/akhi-portfolio-app/static/media/background3.e6eea86fb53c1d222e50.jpg",
+    "index.html": "/akhi-portfolio-app/index.html",
+    "main.8a965312.css.map": "/akhi-portfolio-app/static/css/main.8a965312.css.map",
+    "main.04bc25a1.js.map": "/akhi-portfolio-app/static/js/main.04bc25a1.js.map",
+    "787.f806014b.chunk.js.map": "/akhi-portfolio-app/static/js/787.f806014b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a965312.css",
+    "static/js/main.04bc25a1.js"
+  ]
+}
