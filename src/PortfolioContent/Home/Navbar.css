@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+/* Navbar css */
+
+
+/* hambarger icon css */
+.paragraphClass{
+    height: 200px;
+}
+
+.navbar-container{
+    overflow: hidden;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif; 
+    display: flex;
+    text-align: center;
+    transition: 0.5s ease-out;
+    /* justify-self: center; */
+    /* position: fixed; */
+    /* top: 0px; */
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid black; */
+   color: white;
+   /* color: black; */
+   /* background-color: rgba(8, 8, 8, 0.507); */
+  
+
+}
+
+
+.navbar-container ul {
+    display:  flex;
+    position: absolute;
+    right: 220px;
+
+}
+
+.navbar-container ul li{
+    list-style: none;
+    
+}
+.navbar-container ul a{
+    text-decoration: none;
+    margin: 10px 29px;
+    color: aqua;
+    
+}
+.navbar-container ul li:hover{
+    color: rgb(83, 10, 7);
+}
+/* For logo */
+.navbar-container #logo{
+    position: relative;
+    left: 170px;
+    /* top: -14px; */
+    height: 50px;
+    width: 137px;
+    margin: 8px 5px;
+    padding: 7px 11px;
+    background-color: rgb(31 30 30);
+    
+}
+
+#logo h3{
+    font-size: 30px;
+    position: absolute;
+    top: -20px;
+}
+#logo a{
+    text-decoration: none;
+    color: white;
+}
+#logo h3:hover{
+    color: rgb(182, 64, 60);
+
+}
+
+/* ON SCROLLING PAGE  THE NAVBAR IS LOOKING LIKE THIS */
+
+
+.navbar-container1{
+    overflow: hidden;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif; 
+    display: flex;
+    text-align: center;
+    /* justify-self: center; */
+    position: fixed;
+    transition: 0.5s ease-out;
+    /* top: 0px; */
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid black; */
+   /* color: white; */
+   color: aqua;
+   background-color: rgb(31 30 30);
+   z-index: 99;
+  }
+
+.ul1 {
+    display:  flex;
+    position: absolute;
+    right: 220px;
+
+}
+
+ .li1{
+    list-style: none;
+    margin: 10px 29px;
+}
+
+/* For logo */
+ .logo1{
+    position: relative;
+    left: 170px;
+    /* top: -14px; */
+    height: 50px;
+    width: 137px;
+    margin: 8px 5px;
+    padding: 7px 11px;
+    /* background-color: black; */
+}
+
+ .h31{
+    font-size: 30px;
+    position: absolute;
+    top: -20px;
+}
+
+/* USING OF MEDIA QUERY FOR RESPONSIVE NESS -----------------------------------------------------------------------------------------------*/
+
+
+
+  @media screen and (max-width: 1000px) {
+    .navbar-container{
+        
+        /* border: 2px solid red; */
+        width: 1238px;
+        background-color: rgb(31 30 30);
+        margin: 0 auto;
+        height: 235px;
+        display: flex;
+        flex-direction: column;
+    }
+    /* .navbar-container .hambarger{
+        background-image: url(../../Assets/Home/hambarger.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 35px;
+        height: 35px;
+        position: relative;
+        left: 760px;
+        top: 16px;
+        
+    } */
+    /* .navbar-container .hambarger:hover{
+        cursor: pointer;
+     } */
+     .navbar-container ul {
+        display:  flex;
+        /* position: absolute;
+        right: 220px; */
+        width: 1186px;
+        height: 73px;
+        /* border: 2px solid red; */
+        position: relative;
+        top: -31px;
+        font-size: 34px;
+        left: 4px;
+
+    
+    }
+    
+    .navbar-container ul li{
+        list-style: none;
+        
+    }
+    .navbar-container ul a{
+        text-decoration: none;
+        margin: 10px 35px;
+        color: aqua;
+        
+    }
+    .navbar-container ul li:hover{
+        color: rgb(83, 10, 7);
+    }
+    /* For logo */
+    .navbar-container #logo{
+        position: relative;
+        left: 7px;
+        top: 4px;
+        height: 87px;
+        width: 400px;
+        /* margin: 8px 5px;
+        padding: 7px 11px; */
+        /* background-color: black; */
+        /* border: 2px solid green; */
+        
+    }
+    
+    #logo h3{
+        font-size: 54px;
+        position: relative;
+        top: -64px;
+    }
+    #logo a{
+        text-decoration: none;
+        color: white;
+    }
+    #logo h3:hover{
+        color: rgb(182, 64, 60);
+    
+    }
+   
+  }
+  /* ----------------------------------------------------------------------------------------------------------------- */
+
+  @media screen and (max-width: 750px) {
+    .navbar-container{
+        
+        /* border: 2px solid red; */
+        width: 1230px;
+        background-color: rgb(31 30 30);
+
+        margin: 0 auto;
+        height: 235px;
+        display: flex;
+        flex-direction: column;
+    }
+    /* .navbar-container .hambarger{
+        background-image: url(../../Assets/Home/hambarger.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 35px;
+        height: 35px;
+        position: relative;
+        left: 760px;
+        top: 16px;
+        
+    } */
+    /* .navbar-container .hambarger:hover{
+        cursor: pointer;
+     } */
+     .navbar-container ul {
+        display:  flex;
+        /* position: absolute;
+        right: 220px; */
+        width: 1206px;
+        height: 73px;
+        /* border: 2px solid red; */
+        position: relative;
+        top: -31px;
+        font-size: 44px;
+
+    
+    }
+    
+    .navbar-container ul li{
+        list-style: none;
+        
+    }
+    .navbar-container ul a{
+        text-decoration: none;
+        margin: 10px 29px;
+        color: aqua;
+        
+    }
+    .navbar-container ul li:hover{
+        color: rgb(83, 10, 7);
+    }
+    /* For logo */
+    .navbar-container #logo{
+        position: relative;
+        left: 7px;
+        top: 4px;
+        height: 87px;
+        width: 400px;
+        
+        background-color: rgb(31 30 30);
+
+        /* border: 2px solid green; */
+        
+    }
+    
+    #logo h3{
+        font-size: 70px;
+        position: relative;
+        top: -70px;
+    }
+    #logo a{
+        text-decoration: none;
+        color: white;
+    }
+    #logo h3:hover{
+        color: rgb(182, 64, 60);
+    
+    }
+   
+  }
+  /* --------------------------------------------------------------------------------------------------------------------------- */
+
+  @media screen and (max-width: 450px) {
+    .navbar-container{
+        
+        /* border: 2px solid red; */
+        width: 1225px;
+        background-color: rgb(31 30 30);
+        margin: 0 auto;
+        height: 235px;
+        display: flex;
+        flex-direction: column;
+    }
+    /* .navbar-container .hambarger{
+        background-image: url(../../Assets/Home/hambarger.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 35px;
+        height: 35px;
+        position: relative;
+        left: 760px;
+        top: 16px;
+        
+    } */
+    /* .navbar-container .hambarger:hover{
+        cursor: pointer;
+     } */
+     .navbar-container ul {
+        display:  flex;
+        /* position: absolute;
+        right: 220px; */
+        width: 1206px;
+        height: 73px;
+        /* border: 2px solid red; */
+        position: relative;
+        top: -31px;
+        font-size: 44px;
+
+    
+    }
+    
+    .navbar-container ul li{
+        list-style: none;
+        
+    }
+    .navbar-container ul a{
+        text-decoration: none;
+        margin: 10px 29px;
+        color: aqua;
+        
+    }
+    .navbar-container ul li:hover{
+        color: rgb(83, 10, 7);
+    }
+    /* For logo */
+    .navbar-container #logo{
+        position: relative;
+        left: 7px;
+        top: 4px;
+        height: 87px;
+        width: 400px;
+        /* margin: 8px 5px;
+        padding: 7px 11px; */
+        background-color: rgb(31 30 30);
+        /* border: 2px solid green; */
+        
+    }
+    
+    #logo h3{
+        font-size: 70px;
+        position: relative;
+        top: -70px;
+    }
+    #logo a{
+        text-decoration: none;
+        color: white;
+    }
+    #logo h3:hover{
+        color: rgb(182, 64, 60);
+    
+    }
+   
+  }
+  /* -------------------------------------------------------------------------------------------------------------------------------- */
+/* MEDIA QUERY FOR NAVBAR WHEN SCROLLING PAGE FUNCTIONALITY---------------------------------------------------- */
+  @media screen and (max-width : 1000px){
+
+    .navbar-container1{
+        overflow: hidden;
+        /* font-family: 'Roboto', sans-serif; */
+        font-family: 'Open Sans', sans-serif; 
+        display: flex;
+        text-align: center;
+        /* justify-self: center; */
+        position: fixed;
+        transition: 0.5s ease-out;
+        /* top: 0px; */
+        width: 100%;
+        height: 115px;
+        /* border: 2px solid black; */
+       /* color: white; */
+       color: aqua;
+       background-color: rgb(31 30 30);
+       z-index: 99;
+      }
+
+      .logo1{
+        position: relative;
+        left: 0px;
+        /* top: -14px; */
+        height: 50px;
+        width: 137px;
+        margin: 8px 5px;
+        padding: 7px 11px;
+        background-color: rgb(31 30 30);
+    }
+    
+     .h31{
+        font-size: 30px;
+        position: absolute;
+        top: -20px;
+    }
+    .ul1 {
+        display:  flex;
+        position: absolute;
+        right: 36px;
+        top: 6px;
+        font-size: 29px;
+    
+    }
+
+  }
+  /* ------------------------------------------------------------------------------------------------------------------- */
+  @media screen and (max-width : 750px){
+
+    .navbar-container1{
+        overflow: hidden;
+        /* font-family: 'Roboto', sans-serif; */
+        font-family: 'Open Sans', sans-serif; 
+        display: flex;
+        text-align: center;
+        /* justify-self: center; */
+        position: fixed;
+        transition: 0.5s ease-out;
+        /* top: 0px; */
+        width: 100%;
+        height: 115px;
+        /* border: 2px solid black; */
+       /* color: white; */
+       color: aqua;
+       background-color: rgb(31 30 30);
+       z-index: 99;
+      }
+
+      .logo1{
+        position: relative;
+        left: 0px;
+        /* top: -14px; */
+        height: 50px;
+        width: 137px;
+        margin: 8px 5px;
+        padding: 7px 11px;
+        background-color: rgb(31 30 30);
+    }
+    
+     .h31{
+        font-size: 30px;
+        position: absolute;
+        top: -20px;
+    }
+    .ul1 {
+        display:  flex;
+        position: absolute;
+        right: 36px;
+        top: 6px;
+        font-size: 29px;
+    
+    }
+
+  }
+  /* ----------------------------------------------------------------------------------------- */
+  @media screen and (max-width : 450px){
+
+    .navbar-container1{
+        overflow: hidden;
+        /* font-family: 'Roboto', sans-serif; */
+        font-family: 'Open Sans', sans-serif; 
+        display: flex;
+        text-align: center;
+        /* justify-self: center; */
+        position: fixed;
+        transition: 0.5s ease-out;
+        /* top: 0px; */
+        width: 100%;
+        height: 115px;
+        /* border: 2px solid black; */
+       /* color: white; */
+       color: aqua;
+       background-color: rgb(31 30 30);
+       z-index: 99;
+      }
+
+      .logo1{
+        position: relative;
+        left: 0px;
+        /* top: -14px; */
+        height: 50px;
+        width: 137px;
+        margin: 8px 5px;
+        padding: 7px 11px;
+        background-color: rgb(31 30 30);
+    }
+    
+     .h31{
+        font-size: 30px;
+        position: absolute;
+        top: -20px;
+    }
+    .ul1 {
+        display:  flex;
+        position: absolute;
+        right: 36px;
+        top: 6px;
+        font-size: 29px;
+    
+    }
+
+  }

@@ -1,0 +1,966 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+/* font-family: 'Imperial Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* font-family: 'Roboto Condensed', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+/* font-family: 'Love Light', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+.profile-cotainer{
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+   /* background-color: rgb(158, 158, 240); */
+   width: 100%;
+   height: 1000px;
+   color: white;
+   /* border: 3px solid red; */
+}
+.profile-content{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    /* border: 3px solid green; */
+    /* justify-content: center;
+    align-items: center; */
+}
+/* For "social-media-logo" content */
+.profile-content .social-media-logo{
+    position: absolute;
+    left: 150px;
+    top: 240px;
+    /* background-color: white; */
+}
+.social-media-logo a{
+    margin: 0px 9px;
+    color: antiquewhite;
+    font-size: 25px;
+
+}
+.social-media-logo a:hover{
+    color: rgb(104, 180, 154);
+}
+
+
+/* For "profile-detail-name" content */
+
+.profile-detail-name{
+    position: absolute;
+    top: 280px;
+    left: 150px;
+    /* background-color: green; */
+
+}
+.profile-detail-name #name{
+font-family: 'Love Light', cursive;
+
+    color: hsl(343, 24%, 68%);
+    font-size: 39px;
+    font-weight: bold;
+}
+/* .profile-detail-name span{
+    color: hsl(343, 24%, 68%);
+    font-size: 35px;
+    font-weight: bold;
+} */
+
+/* For "profile-detail-rol" */
+.profile-detail-role{
+font-family: 'Ubuntu', sans-serif;
+
+    position: absolute;
+    top: 335px;
+    left: 150px;
+    /* background-color: rgb(76, 129, 76); */
+}
+
+
+/* For "profile-detail-description" content */
+
+.profile-detail-description{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Dongle', sans-serif; */
+    
+/* font-family: 'Roboto Condensed', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+       color: aliceblue;
+/* font-family: 'Imperial Script', cursive; */
+
+    /* font-size: 20px; */
+    width: 447px;
+    /* height: 200px; */
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    /* background-color: rgb(9, 26, 9); */
+    /* text-align: center; */
+}
+
+
+/* Home Button content */
+.all-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100px;
+    /* border: 2px solid gold; */
+    position: absolute;
+    top: 500px;
+    /* left: 150; */
+}
+.all-button .btn{
+    
+    margin: 10px 60px;
+     width: 120px;
+    height: 40px;
+    border-radius: 25px;
+   
+    
+}
+
+.all-button #button-primary{
+    font-family: 'Open Sans', sans-serif;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: rgb(22, 112, 196);
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+   
+}
+.all-button #button-secondary{
+    font-family: 'Open Sans', sans-serif;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: rgb(204, 81, 32);
+
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+}
+#button-primary:hover{
+    background-color: rgb(28, 79, 126);
+    cursor: pointer;
+}
+#button-secondary:hover{
+    background-color: rgb(163, 49, 4);
+
+    cursor: pointer;
+}
+
+
+
+/* profile-container -subpart 2 */
+
+.profile-picture-background{
+       /* border: 3px solid blue; */
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       position: absolute;
+       top: 190px;
+       right: 125px;
+       
+
+       box-shadow: 0 2px 0px 0px white;
+       border-radius: 50%;
+       width: 380px;
+       height: 380px;
+       /* margin: 0 0px 100px; */
+}
+.profile-picture{
+    height: 340px;
+    width: 340px;
+    background-image: url(../../Assets/Home/akhilesh_pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+
+
+}
+.profile-picture:hover{
+    transform: scale(1.12);
+    transition: 1s ease-out;
+    cursor: pointer;
+}
+
+
+
+/* MEDIA QUERY CONTENT-------------------------------- ------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 1400px) {
+
+
+
+    .profile-cotainer{
+        font-family: 'Open Sans', sans-serif;
+    
+        /* display: flex !important;
+        flex-direction: column !important; */
+       /* background-color: rgb(158, 158, 240); */
+       width: 1398px;
+       height: 1193px;
+       color: white;
+        /* margin: 0 auto; */
+       /* border: 3px solid red; */
+    }
+
+    .profile-content{
+        color: rgb(46, 45, 44);
+
+        position: relative;
+        top: 675px;
+        left: 166px;
+        width: 1125px;
+        height: 800px;
+        /* border:2px solid green; */
+
+        color: rgb(46, 45, 44);
+          
+    
+    }
+    
+    .profile-content .social-media-logo{
+        position: relative;
+        left: 10px;
+        top: 10px;
+        /* background-color: white; */
+    }
+    .social-media-logo a{
+        margin: 0px 38px;
+        color: rgb(46, 45, 44);
+        font-size: 67px;
+    
+    }
+    .social-media-logo a:hover{
+        color: rgb(104, 180, 154);
+    }
+    
+    
+    /* For "profile-detail-name" content */
+    
+    .profile-detail-name{
+        position: relative;
+        top: 27px;
+        left: 10px;
+        font-size: 45px;
+        
+        /* background-color: green; */
+    
+    }
+    .profile-detail-name #name{
+    font-family: 'Love Light', cursive;
+    
+        /* color: hsl(343, 24%, 68%); */
+        color: rgb(46, 45, 44);
+
+        font-size: 92px;
+        font-weight: bold;
+    }
+    /* .profile-detail-name span{
+        color: hsl(343, 24%, 68%);
+        font-size: 35px;
+        font-weight: bold;
+    } */
+    
+    /* For "profile-detail-rol" */
+    .profile-detail-role{
+    font-family: 'Ubuntu', sans-serif;
+    
+        position: relative;
+        top: 15px;
+        left: 10px;
+        font-size: 32px;
+        /* background-color: rgb(76, 129, 76); */
+    }
+    
+    
+    /* For "profile-detail-description" content */
+    
+    .profile-detail-description{
+        font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    
+           /* color: aliceblue; */
+        color: rgb(46, 45, 44);
+
+    /* font-family: 'Imperial Script', cursive; */
+    
+        /* font-size: 20px; */
+        width: 800px;
+        font-size: 30px;
+        /* height: 200px; */
+        position: relative;
+        top: 10px;
+        left: 10px;
+        /* background-color: rgb(9, 26, 9); */
+        /* text-align: center; */
+    }
+    
+    
+    /* Home Button content */
+    .all-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 100px;
+        /* border: 2px solid gold; */
+        position: relative;
+        top: 10px;
+        left: 230px;
+    }
+    .all-button .btn{
+        
+        margin: 10px 180px;
+         width: 100px;
+        height: 25px;
+        border-radius: 25px;
+       
+        
+    }
+    
+    .all-button #button-primary{
+        font-family: 'Open Sans', sans-serif;
+        width: 200px !important;
+        height: 70px !important;
+        border-radius: 25px;
+        border-style: none;
+        background-color: rgb(22, 112, 196);
+        border: 1px solid white;
+        color: white;
+        font-size: 30px;
+       
+    }
+    .all-button #button-secondary{
+        font-family: 'Open Sans', sans-serif;
+        width: 200px !important;
+        height: 70px !important;
+        border-radius: 25px;
+        border-style: none;
+        background-color: rgb(204, 81, 32);
+    
+        border: 1px solid white;
+        color: white;
+        font-size: 30px;
+
+    }
+    #button-primary:hover{
+        background-color: rgb(28, 79, 126);
+        cursor: pointer;
+    }
+    #button-secondary:hover{
+        background-color: rgb(163, 49, 4);
+    
+        cursor: pointer;
+    }
+
+    .profile-picture-background{
+        border-radius: 50% !important;
+        /* border: 3px solid blue ; */
+        width: 480px;
+        height: 370px;
+        position: relative;
+        top: 105px;
+        right: 488px;
+        
+        /* margin: 0 0px 100px; */
+ }
+ .profile-picture{
+    height: 350px;
+    width: 336px;
+    background-image: url(../../Assets/Home/akhilesh_pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+
+}
+}
+/* -------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 1000px) {
+
+
+
+    .profile-cotainer{
+        font-family: 'Open Sans', sans-serif;
+    
+        /* display: flex !important;
+        flex-direction: column !important; */
+       /* background-color: rgb(158, 158, 240); */
+       width: 1250;
+       height: 1193px;
+       color: white;
+        /* margin: 0 auto; */
+       /* border: 3px solid red; */
+    }
+
+    .profile-content{
+        color: rgb(46, 45, 44);
+
+        position: relative;
+        top: 675px;
+        left: 166px;
+        width: 1125px;
+        height: 800px;
+        /* border:2px solid green; */
+
+        color: rgb(46, 45, 44);
+          
+    
+    }
+    
+    .profile-content .social-media-logo{
+        position: relative;
+        left: 10px;
+        top: 10px;
+        /* background-color: white; */
+    }
+    .social-media-logo a{
+        margin: 0px 38px;
+        color: rgb(46, 45, 44);
+        font-size: 67px;
+    
+    }
+    .social-media-logo a:hover{
+        color: rgb(104, 180, 154);
+    }
+    
+    
+    /* For "profile-detail-name" content */
+    
+    .profile-detail-name{
+        position: relative;
+        top: 27px;
+        left: 10px;
+        font-size: 45px;
+        
+        /* background-color: green; */
+    
+    }
+    .profile-detail-name #name{
+    font-family: 'Love Light', cursive;
+    
+        /* color: hsl(343, 24%, 68%); */
+        color: rgb(46, 45, 44);
+
+        font-size: 92px;
+        font-weight: bold;
+    }
+    /* .profile-detail-name span{
+        color: hsl(343, 24%, 68%);
+        font-size: 35px;
+        font-weight: bold;
+    } */
+    
+    /* For "profile-detail-rol" */
+    .profile-detail-role{
+    font-family: 'Ubuntu', sans-serif;
+    
+        position: relative;
+        top: 15px;
+        left: 10px;
+        font-size: 32px;
+        /* background-color: rgb(76, 129, 76); */
+    }
+    
+    
+    /* For "profile-detail-description" content */
+    
+    .profile-detail-description{
+        font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    
+           /* color: aliceblue; */
+        color: rgb(46, 45, 44);
+
+    /* font-family: 'Imperial Script', cursive; */
+    
+        /* font-size: 20px; */
+        width: 800px;
+        font-size: 35px;
+        /* height: 200px; */
+        position: relative;
+        top: 10px;
+        left: 10px;
+        /* background-color: rgb(9, 26, 9); */
+        /* text-align: center; */
+    }
+    
+    
+    /* Home Button content */
+    .all-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 100px;
+        /* border: 2px solid gold; */
+        position: relative;
+        top: 10px;
+        left: 230px;
+    }
+    .all-button .btn{
+        
+        margin: 10px 180px;
+         width: 100px;
+        height: 25px;
+        border-radius: 25px;
+       
+        
+    }
+    
+    .all-button #button-primary{
+        font-family: 'Open Sans', sans-serif;
+        width: 200px !important;
+        height: 70px !important;
+        border-radius: 25px;
+        border-style: none;
+        background-color: rgb(22, 112, 196);
+        border: 1px solid white;
+        color: white;
+        font-size: 30px;
+       
+    }
+    .all-button #button-secondary{
+        font-family: 'Open Sans', sans-serif;
+        width: 200px !important;
+        height: 70px !important;
+        border-radius: 25px;
+        border-style: none;
+        background-color: rgb(204, 81, 32);
+    
+        border: 1px solid white;
+        color: white;
+        font-size: 30px;
+
+    }
+    #button-primary:hover{
+        background-color: rgb(28, 79, 126);
+        cursor: pointer;
+    }
+    #button-secondary:hover{
+        background-color: rgb(163, 49, 4);
+    
+        cursor: pointer;
+    }
+
+    .profile-picture-background{
+        border-radius: 50% !important;
+        /* border: 3px solid blue ; */
+        width: 480px;
+        height: 370px;
+        position: relative;
+        top: 105px;
+        right: 488px;
+        
+        /* margin: 0 0px 100px; */
+ }
+ .profile-picture{
+    height: 350px;
+    width: 336px;
+    background-image: url(../../Assets/Home/akhilesh_pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+
+}
+}
+/* --------------------------------------------------------------------------------------------- */
+/* MEDIA QUERY FOR POSITION -750PX */
+@media screen and (max-width: 750px) {
+
+
+
+    .profile-cotainer{
+        font-family: 'Open Sans', sans-serif;
+    
+        /* display: flex !important;
+        flex-direction: column !important; */
+       /* background-color: rgb(158, 158, 240); */
+       width: 1237;
+       height: 1193px;
+       color: white;
+        /* margin: 0 auto; */
+       /* border: 3px solid red; */
+    }
+
+    .profile-content{
+        color: rgb(46, 45, 44);
+
+        position: relative;
+        top: 785px;
+        left: 199px;
+        width: 1475px;
+        height: 1125px;
+        /* border:2px solid green; */
+    }
+    
+    .profile-content .social-media-logo{
+        position: relative;
+        left: 10px;
+        top: 10px;
+        /* background-color: white; */
+    }
+    .social-media-logo a{
+        margin: 0px 22px;
+        color: rgb(46, 45, 44);
+        font-size: 80px;
+    
+    }
+    .social-media-logo a:hover{
+        color: rgb(104, 180, 154);
+    }
+    
+    
+    /* For "profile-detail-name" content */
+    
+    .profile-detail-name{
+        position: relative;
+        top: 27px;
+        left: 10px;
+        font-size: 50px;
+        
+        /* background-color: green; */
+    
+    }
+    .profile-detail-name #name{
+    font-family: 'Love Light', cursive;
+    
+        /* color: hsl(343, 24%, 68%); */
+        color: rgb(46, 45, 44);
+
+        font-size: 103px;
+        font-weight: bold;
+    }
+    /* .profile-detail-name span{
+        color: hsl(343, 24%, 68%);
+        font-size: 35px;
+        font-weight: bold;
+    } */
+    
+    /* For "profile-detail-rol" */
+    .profile-detail-role{
+    font-family: 'Ubuntu', sans-serif;
+    
+        position: relative;
+        top: 15px;
+        left: 10px;
+        font-size: 27px;
+        /* background-color: rgb(76, 129, 76); */
+    }
+    
+    
+    /* For "profile-detail-description" content */
+    
+    .profile-detail-description{
+        font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    
+           /* color: aliceblue; */
+        color: rgb(19 18 18);
+
+    /* font-family: 'Imperial Script', cursive; */
+    
+        /* font-size: 20px; */
+        width: 650px;
+        font-size: 46px;
+        /* height: 200px; */
+        position: relative;
+        top: 10px;
+        left: 10px;
+        /* background-color: rgb(9, 26, 9); */
+        /* text-align: center; */
+    }
+    
+    
+    /* Home Button content */
+    .all-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 100px;
+        /* border: 2px solid gold; */
+        position: relative;
+        top: 10px;
+        left: 125px;
+    }
+    .all-button .btn{
+        
+        margin: 10px 176px;
+         width: 100px;
+        height: 25px;
+        border-radius: 25px;
+       
+        
+    }
+    
+    .all-button #button-primary{
+        font-family: 'Open Sans', sans-serif;
+        width: 270px !important;
+        height: 90px !important;
+        border-radius: 25px;
+        border-style: none;
+        background-color: rgb(22, 112, 196);
+        border: 1px solid white;
+        color: white;
+        font-size: 38px;
+       
+    }
+    .all-button #button-secondary{
+        font-family: 'Open Sans', sans-serif;
+        width: 270px !important;
+        height: 90px !important;
+        border-radius: 25px;
+        border-style: none;
+        background-color: rgb(204, 81, 32);
+    
+        border: 1px solid white;
+        color: white;
+        font-size: 38px;
+    }
+    #button-primary:hover{
+        background-color: rgb(28, 79, 126);
+        cursor: pointer;
+    }
+    #button-secondary:hover{
+        background-color: rgb(163, 49, 4);
+    
+        cursor: pointer;
+    }
+
+    .profile-picture-background{
+        border-radius: 50% !important;
+        /* border: 3px solid blue ; */
+        width: 1030px;
+        height: 560px;
+        position: relative;
+        top: 130px;
+        right: 390px;
+        
+        /* margin: 0 0px 100px; */
+ }
+ .profile-picture{
+    height: 500px;
+    width: 500px;
+    background-image: url(../../Assets/Home/akhilesh_pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+
+}
+}
+
+/* ---------------------------------------------------------------------------------------- */
+@media screen and (max-width: 450px) {
+
+
+
+    .profile-cotainer{
+        font-family: 'Open Sans', sans-serif;
+    
+        /* display: flex !important;
+        flex-direction: column !important; */
+       /* background-color: rgb(158, 158, 240); */
+       width: 100% !important;
+       height: 1193px;
+       color: white;
+        /* margin: 0 auto; */
+       /* border: 3px solid red; */
+    }
+
+    .profile-content{
+        color: rgb(46, 45, 44);
+
+        position: relative;
+        top: 1100px;
+        left: 199px;
+        width: 1454px !important;
+        height: 1700px;
+        /* border:2px solid green; */
+    }
+    
+    .profile-content .social-media-logo{
+        position: relative;
+        left: 10px;
+        top: 10px;
+        /* background-color: white; */
+    }
+    .social-media-logo a{
+        margin: 0px 53px;
+        color: rgb(46, 45, 44);
+        font-size: 138px;
+    
+    }
+    .social-media-logo a:hover{
+        color: rgb(104, 180, 154);
+    }
+    
+    
+    /* For "profile-detail-name" content */
+    
+    .profile-detail-name{
+        position: relative;
+        top: 27px;
+        left: 10px;
+        font-size: 58px;
+        
+        /* background-color: green; */
+    
+    }
+    .profile-detail-name #name{
+    font-family: 'Love Light', cursive !important;
+    
+        /* color: hsl(343, 24%, 68%); */
+        color: rgb(46, 45, 44);
+
+        font-size: 85px;
+        font-weight: bold;
+    }
+    /* .profile-detail-name span{
+        color: hsl(343, 24%, 68%);
+        font-size: 35px;
+        font-weight: bold;
+    } */
+    
+    /* For "profile-detail-rol" */
+    .profile-detail-role{
+    font-family: 'Ubuntu', sans-serif;
+    
+        position: relative;
+        top: 15px;
+        left: 10px;
+        font-size: 27px;
+        /* background-color: rgb(76, 129, 76); */
+    }
+    
+    
+    /* For "profile-detail-description" content */
+    
+    .profile-detail-description{
+        font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    
+           /* color: aliceblue; */
+        color: rgb(37, 37, 37);
+
+    /* font-family: 'Imperial Script', cursive; */
+    
+        /* font-size: 20px; */
+        width: 650px;
+        font-size: 50px;
+        /* height: 200px; */
+        position: relative;
+        top: 10px;
+        left: 10px;
+        /* background-color: rgb(9, 26, 9); */
+        /* text-align: center; */
+    }
+    
+    
+    /* Home Button content */
+    .all-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px !important;
+        height: 100px !important ;
+        /* border: 2px solid gold; */
+        position: relative;
+        top: 10px;
+        left: 121px;
+    }
+    .all-button .btn{
+        
+        margin: 10px 166px;
+         width: 100px !important;
+        height: 25px !important;
+        border-radius: 25px;
+       
+        
+    }
+    
+    .all-button #button-primary{
+        font-family: 'Open Sans', sans-serif;
+        width: 270px !important;
+        height: 110px !important;
+        border-radius: 25px;
+        border-style: none;
+        background-color: rgb(22, 112, 196);
+        border: 1px solid white;
+        color: white;
+        font-size: 40px;
+       
+    }
+    .all-button #button-secondary{
+        font-family: 'Open Sans', sans-serif;
+        width: 270px !important;
+        height: 110px !important;
+        border-radius: 25px;
+        border-style: none;
+        background-color: rgb(204, 81, 32);
+    
+        border: 1px solid white;
+        color: white;
+        font-size: 40px;
+
+    }
+    #button-primary:hover{
+        background-color: rgb(28, 79, 126);
+        cursor: pointer;
+    }
+    #button-secondary:hover{
+        background-color: rgb(163, 49, 4);
+    
+        cursor: pointer;
+    }
+
+    .profile-picture-background{
+        border-radius: 50% !important;
+        /* border: 3px solid blue ; */
+        width: 1055px;
+        height: 570px;
+        position: relative;
+        top: 130px;
+        right: 390px;
+        
+        /* margin: 0 0px 100px; */
+ }
+ .profile-picture{
+    height: 500px;
+    width: 500px;
+    background-image: url(../../Assets/Home/akhilesh_pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+
+}
+}

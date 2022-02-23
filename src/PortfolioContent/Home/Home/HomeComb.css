@@ -1,0 +1,50 @@
+.homeComb-container{
+    overflow: hidden;
+    background-image: url(../../../Assets/Home/background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 1350px;
+}
+
+/* @media screen and (max-width: 1250px) {  
+
+  .homeComb-container{
+
+      width: 1263px;
+      height: 1500px;
+  }
+} */
+@media screen and (max-width: 1400px) {  
+
+  .homeComb-container{
+
+      width: 1398px;
+      height: 1600px;
+  }
+}
+@media screen and (max-width: 1000px) {  
+
+  .homeComb-container{
+
+      width: 1250px;
+      height: 1600px;
+  }
+}
+@media screen and (max-width: 750px) {  
+
+  .homeComb-container{
+
+      width: 1237px;
+      height: 2100px;
+  }
+}
+@media screen and (max-width: 450px) {  
+
+  .homeComb-container{
+
+      width: 1232px;
+      height: 3000px;
+  }
+}

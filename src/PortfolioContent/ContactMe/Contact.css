@@ -1,0 +1,832 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+/* font-family: 'Baloo Bhaijaan 2', cursive; */
+
+.contact-container{
+    font-family: 'Baloo Bhaijaan 2', cursive; 
+    width: 100%;
+    height: 610px;
+    background-color: azure;
+    margin-top: -20px;
+   text-align: center;
+
+    /* border: 2px solid red; */
+}
+.tempIcon{
+    width: 100%;
+    height: 50px;
+    border: 2px solid red;
+    background-color: green;
+}
+.contact-section{
+    display: flex;
+    width: 72%;
+    
+    height: 400px;
+    margin: 45px auto;
+    /* border: 3px solid green; */
+    background-color: rgb(3, 3, 22);
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px 14px rgb(144, 148, 147);
+
+}
+
+.contact-part1{
+width: 50%;
+/* border: 3px solid blue; */
+color: whitesmoke ;
+}
+.contact-part1 h2{
+    margin-top: 1px;
+    text-align: left;
+    margin-left: 12px;
+}
+/* #emoji1{
+    color: yellow;
+    background-color: yellow;
+} */
+.contact-social-media-logo{
+    margin-top: -10px;
+    position: relative;
+    right: 194px;
+}
+.contact-social-media-logo a{
+     margin: 0px 7px;
+     color: whitesmoke;
+    font-size: 15px;
+}
+.contact-social-media-logo a:hover{
+    color: rgb(92, 153, 133);
+
+}
+.contact-para{
+   margin-top: 65px;
+   text-align: left;
+   margin-left: 5px;
+   margin-bottom: -12px;
+}
+.contact-image{
+ background-image: url(../../Assets/Home/contact-image.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ width: 547px;
+ height: 195px;
+}
+
+
+
+
+
+.contact-part2{
+width: 41%;
+margin: auto;
+height: 326px;
+/* border: 2px solid black; */
+border-radius: 7px;
+background-color: whitesmoke;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+    margin: 0 auto;
+}
+form input{
+    margin:5px 0px;
+    height: 34px;
+    width: 98%;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    background-color: rgb(185, 191, 197);
+
+}
+form textarea{
+    margin: 5px 0px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    background-color: rgb(185, 191, 197);
+
+}
+form span{
+    margin-top: 5px;
+    text-align: left;
+}
+.contact-button{
+  margin-top: 18px;
+  width: 30%;
+  height: 36px;
+  border-radius: 5px;
+  outline: none;
+  border-style: none;
+  background-color: rgb(31, 19, 85);
+  color: whitesmoke;
+}
+
+.contact-button:hover{
+    background-color:rgb(14, 6, 46) ;
+}
+
+
+/* MEDIA QUARY FOR RESPONSIVE WEBSITE ------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width : 1400px){
+
+    .contact-container{
+        font-family: 'Baloo Bhaijaan 2', cursive; 
+        width: 1398px;
+        height: 1010px;
+        background-color: azure;
+        margin-top: -20px;
+       text-align: center;
+    
+        /* border: 2px solid red; */
+    }
+    
+    
+    .tempIcon{
+        width: 100%;
+        height: 50px;
+        border: 2px solid red;
+        background-color: green;
+    }
+    .contact-section{
+        display: flex;
+        width: 90%;
+        
+        height: 670px;
+        margin: 45px auto;
+        /* border: 3px solid green; */
+        background-color: rgb(3, 3, 22);
+        border-radius: 7px;
+        box-shadow: 0px 0px 15px 14px rgb(144, 148, 147);
+    
+    }
+    
+    .contact-part1{
+    width: 50%;
+    /* border: 3px solid blue; */
+    color: whitesmoke ;
+    }
+    .contact-part1 h2{
+        margin-top: 1px;
+        text-align: left;
+        margin-left: 12px;
+        font-size: 42px;
+    }
+    /* #emoji1{
+        color: yellow;
+        background-color: yellow;
+    } */
+    .contact-social-media-logo{
+        margin-top: -48px;
+        position: relative;
+        right: 75px;
+    }
+    .contact-social-media-logo a{
+         margin: 0px 20px;
+         color: whitesmoke;
+        font-size: 50px;
+    }
+    .contact-social-media-logo a:hover{
+        color: rgb(92, 153, 133);
+    
+    }
+    .contact-para{
+       margin-top: 0px;
+       text-align: left;
+       margin-left: 14px;
+       margin-bottom: -39px;
+       font-size: 32px;
+    }
+    .contact-image{
+     background-image: url(../../Assets/Home/contact-image.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 600px;
+     height: 310px;
+    }
+    
+    
+    
+    
+    
+    .contact-part2{
+    width: 43%;
+    margin: auto;
+    height: 585px;
+    /* border: 2px solid black; */
+    border-radius: 7px;
+    background-color: whitesmoke;
+    font-size: 25px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        margin: 0 auto;
+    }
+    form input{
+        margin:5px 0px;
+        height: 60px;
+        width: 98%;
+        border-radius: 5px;
+        border-style: none;
+        outline: none;
+        background-color: rgb(185, 191, 197);
+        font-size: 30px;
+    
+    }
+    form textarea{
+        margin: 5px 0px;
+        border-radius: 5px;
+        outline: none;
+        border-style: none;
+        background-color: rgb(185, 191, 197);
+         height: 100px;
+         font-size: 30px;
+    }
+    form span{
+        margin-top: 20px;
+        text-align: left;
+    }
+    .contact-button{
+      margin-top: 28px;
+      width: 40%;
+      height: 60px;
+      border-radius: 12px;
+      outline: none;
+      border-style: none;
+      background-color: rgb(31, 19, 85);
+      color: whitesmoke;
+      font-size: 23px;
+    }
+    
+    .contact-button:hover{
+        background-color:rgb(14, 6, 46) ;
+    }
+}
+/* ------------------------------------------------------------------------------------- */
+/* @media screen and (max-width : 1250px){
+
+    .contact-container{
+        font-family: 'Baloo Bhaijaan 2', cursive; 
+        width: 1264px;
+        height: 1010px;
+        background-color: azure;
+        margin-top: -20px;
+       text-align: center;
+    
+       
+    }
+    .tempIcon{
+        width: 100%;
+        height: 50px;
+        border: 2px solid red;
+        background-color: green;
+    }
+    .contact-section{
+        display: flex;
+        width: 90%;
+        
+        height: 670px;
+        margin: 45px auto;
+        
+        background-color: rgb(3, 3, 22);
+        border-radius: 7px;
+        box-shadow: 0px 0px 15px 14px rgb(144, 148, 147);
+    
+    }
+    
+    .contact-part1{
+    width: 50%;
+    
+    color: whitesmoke ;
+    }
+    .contact-part1 h2{
+        margin-top: 1px;
+        text-align: left;
+        margin-left: 12px;
+        font-size: 50px;
+    }
+   
+    .contact-social-media-logo{
+        margin-top: -48px;
+        position: relative;
+        right: 75px;
+    }
+    .contact-social-media-logo a{
+         margin: 0px 20px;
+         color: whitesmoke;
+        font-size: 50px;
+    }
+    .contact-social-media-logo a:hover{
+        color: rgb(92, 153, 133);
+    
+    }
+    .contact-para{
+       margin-top: 0px;
+       text-align: left;
+       margin-left: 14px;
+       margin-bottom: -39px;
+       font-size: 32px;
+    }
+    .contact-image{
+     background-image: url(../../Assets/Home/contact-image.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 600px;
+     height: 310px;
+    }
+    
+    
+    
+    
+    
+    .contact-part2{
+    width: 43%;
+    margin: auto;
+    height: 600px;
+    
+    border-radius: 7px;
+    background-color: whitesmoke;
+    font-size: 27px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        margin: 0 auto;
+    }
+    form input{
+        margin:5px 0px;
+        height: 60px;
+        width: 98%;
+        border-radius: 5px;
+        border-style: none;
+        outline: none;
+        background-color: rgb(185, 191, 197);
+        font-size: 30px;
+    
+    }
+    form textarea{
+        margin: 5px 0px;
+        border-radius: 5px;
+        outline: none;
+        border-style: none;
+        background-color: rgb(185, 191, 197);
+         height: 100px;
+         font-size: 30px;
+    }
+    form span{
+        margin-top: 20px;
+        text-align: left;
+    }
+    .contact-button{
+      margin-top: 28px;
+      width: 40%;
+      height: 60px;
+      border-radius: 12px;
+      outline: none;
+      border-style: none;
+      background-color: rgb(31, 19, 85);
+      color: whitesmoke;
+      font-size: 25px;
+    }
+    
+    .contact-button:hover{
+        background-color:rgb(14, 6, 46) ;
+    }
+} */
+
+/* ---------------------------------------------------------------------------------------------- */
+@media screen and (max-width : 1000px){
+
+    .contact-container{
+        font-family: 'Baloo Bhaijaan 2', cursive; 
+        width: 1250px;
+        height: 1000px;
+        background-color: azure;
+        margin-top: -20px;
+       text-align: center;
+    
+        /* border: 2px solid red; */
+    }
+    .tempIcon{
+        width: 100%;
+        height: 50px;
+        border: 2px solid red;
+        background-color: green;
+    }
+    .contact-section{
+        display: flex;
+        width: 92%;
+        
+        height: 700px;
+        margin: 45px auto;
+        /* border: 3px solid green; */
+        background-color: rgb(3, 3, 22);
+        border-radius: 7px;
+        box-shadow: 0px 0px 15px 14px rgb(144, 148, 147);
+    
+    }
+    
+    .contact-part1{
+    width: 50%;
+    /* border: 3px solid blue; */
+    color: whitesmoke ;
+    }
+    .contact-part1 h2{
+        margin-top: 1px;
+        text-align: left;
+        margin-left: 12px;
+        font-size: 70px;
+    }
+    /* #emoji1{
+        color: yellow;
+        background-color: yellow;
+    } */
+    .contact-social-media-logo{
+        margin-top: -48px;
+        position: relative;
+        right: 34px;
+    }
+    .contact-social-media-logo a{
+         margin: 0px 25px;
+         color: whitesmoke;
+        font-size: 60px;
+    }
+    .contact-social-media-logo a:hover{
+        color: rgb(92, 153, 133);
+    
+    }
+    .contact-para{
+       margin-top: 44px;
+       text-align: left;
+       margin-left: 14px;
+       margin-bottom: -39px;
+       font-size: 46px;
+    }
+    .contact-image{
+     background-image: url(../../Assets/Home/contact-image.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 600px;
+     height: 300px;
+    }
+    
+    
+    
+    
+    
+    .contact-part2{
+    width: 43%;
+    margin: auto;
+    height: 623px;
+    /* border: 2px solid black; */
+    border-radius: 7px;
+    background-color: whitesmoke;
+    font-size: 35px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        margin: 0 auto;
+    }
+    form input{
+        margin:5px 0px;
+        height: 60px;
+        width: 98%;
+        border-radius: 5px;
+        border-style: none;
+        outline: none;
+        background-color: rgb(185, 191, 197);
+        font-size: 30px;
+    
+    }
+    form textarea{
+        margin: 5px 0px;
+        border-radius: 5px;
+        outline: none;
+        border-style: none;
+        background-color: rgb(185, 191, 197);
+         height: 100px;
+         font-size: 30px;
+    }
+    form span{
+        margin-top: 20px;
+        text-align: left;
+    }
+    .contact-button{
+      margin-top: 28px;
+      width: 40%;
+      height: 60px;
+      border-radius: 12px;
+      outline: none;
+      border-style: none;
+      background-color: rgb(31, 19, 85);
+      color: whitesmoke;
+      font-size: 28px;
+    }
+    
+    .contact-button:hover{
+        background-color:rgb(14, 6, 46) ;
+    }
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width : 750px){
+
+    .contact-container{
+        font-family: 'Baloo Bhaijaan 2', cursive; 
+        width: 1237px;
+        height: 3500px;
+        background-color: azure;
+        margin-top: -71px;
+       text-align: center;
+    
+        /* border: 2px solid red; */
+    }
+    .tempIcon{
+        width: 100%;
+        height: 50px;
+        border: 2px solid red;
+        background-color: green;
+    }
+    .contact-container h2{
+      font-size: 85px;
+    }
+    .contact-container p{
+        font-size: 75px;
+    }
+    .contact-section{
+        display: flex;
+        width: 1076px;
+        flex-direction: column;
+        height: 2600px;
+        margin: 45px auto;
+        /* border: 3px solid green; */
+        background-color: rgb(3, 3, 22);
+        /* background-color: green; */
+        border-radius: 7px;
+        box-shadow: 0px 0px 15px 14px rgb(144, 148, 147);
+    
+    }
+    
+    .contact-part1{
+    width: 1064px;
+    /* border: 3px solid blue; */
+    color: whitesmoke ;
+    height: 1000px;
+    }
+    .contact-part1 h2{
+        margin-top: 1px;
+        text-align: left;
+        margin-left: 12px;
+        font-size: 104px;
+    }
+    /* #emoji1{
+        color: yellow;
+        background-color: yellow;
+    } */
+    .contact-social-media-logo{
+        margin-top: -100px;
+        position: relative;
+        right: 95px;
+    }
+    .contact-social-media-logo a{
+         margin: 0px 44px;
+         color: whitesmoke;
+        font-size: 102px;
+    }
+    .contact-social-media-logo a:hover{
+        color: rgb(92, 153, 133);
+    
+    }
+    .contact-para{
+       margin-top: -100px;
+       text-align: left;
+       margin-left: 30px;
+       margin-bottom: -85px;
+       font-size: 80px;
+    }
+    .contact-image{
+     background-image: url(../../Assets/Home/contact-image.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 1060px;
+     height: 547px;
+    }
+    
+    
+    
+    
+    
+    .contact-part2{
+        font-size: 68px;
+    width: 1000px;
+    margin: auto;
+    height: 1395px;
+    /* border: 2px solid black; */
+    border-radius: 7px;
+    background-color: whitesmoke;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 84%;
+        margin: 0 auto;
+    }
+    form input{
+        margin:16px 0px;
+        height: 132px;
+        width: 100%;
+        border-radius: 18px;
+        border-style: none;
+        outline: none;
+        background-color: rgb(185, 191, 197);
+        font-size: 60px;
+    
+    }
+    form textarea{
+        margin: 10px 0px;
+        border-radius: 18px;
+        outline: none;
+        border-style: none;
+        background-color: rgb(185, 191, 197);
+        font-size: 60px;
+       height: 300px;
+    }
+    form span{
+        margin-top: 40px;
+        text-align: left;
+    }
+    .contact-button{
+      margin-top: 65px;
+      width: 42%;
+      height: 135px;
+      border-radius: 18px;
+      outline: none;
+      border-style: none;
+      background-color: rgb(31, 19, 85);
+      color: whitesmoke;
+      font-size: 60px;
+    }
+    
+    .contact-button:hover{
+        background-color:rgb(14, 6, 46) ;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width : 450px){
+
+    .contact-container{
+        font-family: 'Baloo Bhaijaan 2', cursive; 
+        width: 1232px;
+        height: 3500px;
+        background-color: azure;
+        margin-top: -67px;
+       text-align: center;
+    
+        /* border: 2px solid red; */
+    }
+    .tempIcon{
+        width: 100%;
+        height: 50px;
+        border: 2px solid red;
+        background-color: green;
+    }
+    .contact-container h2{
+      font-size: 85px;
+    }
+    .contact-container p{
+        font-size: 75px;
+    }
+    .contact-section{
+        display: flex;
+        width: 1076px;
+        flex-direction: column;
+        height: 2600px;
+        margin: 45px auto;
+        /* border: 3px solid green; */
+        background-color: rgb(3, 3, 22);
+        /* background-color: green; */
+        border-radius: 7px;
+        box-shadow: 0px 0px 15px 14px rgb(144, 148, 147);
+    
+    }
+    
+    .contact-part1{
+    width: 1064px;
+    /* border: 3px solid blue; */
+    color: whitesmoke ;
+    height: 1000px;
+    }
+    .contact-part1 h2{
+        margin-top: 1px;
+        text-align: left;
+        margin-left: 12px;
+        font-size: 104px;
+    }
+    /* #emoji1{
+        color: yellow;
+        background-color: yellow;
+    } */
+    .contact-social-media-logo{
+        margin-top: -100px;
+        position: relative;
+        right: 95px;
+    }
+    .contact-social-media-logo a{
+         margin: 0px 44px;
+         color: whitesmoke;
+        font-size: 102px;
+    }
+    .contact-social-media-logo a:hover{
+        color: rgb(92, 153, 133);
+    
+    }
+    .contact-para{
+       margin-top: -100px;
+       text-align: left;
+       margin-left: 30px;
+       margin-bottom: -85px;
+       font-size: 80px;
+    }
+    .contact-image{
+     background-image: url(../../Assets/Home/contact-image.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 1060px;
+     height: 547px;
+    }
+    
+    
+    
+    
+    
+    .contact-part2{
+        font-size: 68px;
+    width: 1000px;
+    margin: auto;
+    height: 1395px;
+    /* border: 2px solid black; */
+    border-radius: 7px;
+    background-color: whitesmoke;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 84%;
+        margin: 0 auto;
+    }
+    form input{
+        margin:16px 0px;
+        height: 132px;
+        width: 100%;
+        border-radius: 18px;
+        border-style: none;
+        outline: none;
+        background-color: rgb(185, 191, 197);
+        font-size: 60px;
+    
+    }
+    form textarea{
+        margin: 10px 0px;
+        border-radius: 18px;
+        outline: none;
+        border-style: none;
+        background-color: rgb(185, 191, 197);
+        font-size: 60px;
+       height: 300px;
+    }
+    form span{
+        margin-top: 40px;
+        text-align: left;
+    }
+    .contact-button{
+      margin-top: 65px;
+      width: 42%;
+      height: 135px;
+      border-radius: 18px;
+      outline: none;
+      border-style: none;
+      background-color: rgb(31, 19, 85);
+      color: whitesmoke;
+      font-size: 60px;
+    }
+    
+    .contact-button:hover{
+        background-color:rgb(14, 6, 46) ;
+    }
+}
+

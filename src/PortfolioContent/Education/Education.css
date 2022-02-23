@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+/* font-family: 'Baloo Bhaijaan 2', cursive; */
+
+
+.education-container{
+   text-align: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin-top: -20px;
+    /* display: flex; */
+    width: 100%;
+    height: 750px;
+    /* border: 2px solid red; */
+    background-color: rgb(226, 248, 241);
+}
+.education-section{
+    
+    color: rgb(230, 221, 221);
+     
+    background-image: url(../../Assets/Home/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 90%;
+    height: 605px;
+    /* border: 2px solid black; */
+    margin: 67px auto;
+    border-radius: 10px;
+    /* background-color: rgb(128, 197, 236); */
+   box-shadow: 0px 0px 13px 11px rgb(144, 148, 147);
+
+}
+.education-part1{
+    width: 49%;
+    height: 550px;
+    /* border: 2px solid yellow; */
+}
+
+.education-duration{
+    margin: 97px 0px;
+}
+
+.education-part2{
+    
+    height: 550px;
+    /* border-left: 6px solid rgb(121, 104, 104); */
+    width: 10px;
+    background-color: rgba(255, 255, 255, 0.397);
+
+    /* position: absolute; */
+    /* left: 616px; */
+
+}
+
+.education-part2 .points{
+    height: 10px;
+    width: 9px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px 5px rgb(236, 238, 238);
+    margin: 110px 0px;
+}
+.education-part3{
+    width: 49%;
+    height: 550px;
+    /* border: 2px solid blue; */
+}
+
+.education-location{
+    margin: 59px 0px;
+}
+
+/* MEDIA QUERY STARTED FOR RESPONSIVE PAGE : ------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------- */
+ @media screen and (max-width : 1400px){                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+    .education-container{
+        text-align: center;
+         font-family: 'Baloo Bhaijaan 2', cursive;
+        
+         width: 1398px;
+         height: 1300px;
+        
+         background-color: rgb(226, 248, 241);
+         margin-top: -66px;
+
+     }
+     .education-container h2{
+        font-size: 35px;
+    }
+    .education-section{
+        
+        color: rgb(230, 221, 221);
+         
+        background-image: url(../../Assets/Home/background3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        width: 1150px;
+        height: 850px;
+      
+        margin: 67px auto;
+        border-radius: 10px;
+       
+       box-shadow: 0px 0px 13px 11px rgb(144, 148, 147);
+    
+    }
+    .education-part1{
+       width: 49%;
+       height: 900px;
+      
+   }
+   
+   .education-duration{
+       margin: 132px 0px;
+       font-size: 26px;
+   }
+   
+   .education-part2{
+       
+       height: 810px;
+       
+       width: 10px;
+       background-color: rgba(255, 255, 255, 0.397);
+   
+     
+   
+   }
+   
+   .education-part2 .points{
+       height: 10px;
+       width: 9px;
+       border-radius: 20px;
+       background-color: whitesmoke;
+       box-shadow: 0px 0px 10px 5px rgb(236, 238, 238);
+       margin: 150px 0px;
+       
+   }
+   .education-part3{
+       width: 49%;
+       height: 900px;
+       
+  
+   }
+   
+   .education-location{
+       margin: 77px 0px;
+       font-size: 21px;
+
+   }
+
+}
+/* ------------------------------------------------------------------------------------------ */
+/* @media screen and (max-width : 1250px){                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+    .education-container{
+        text-align: center;
+         font-family: 'Baloo Bhaijaan 2', cursive;
+         
+         width: 1264px;
+         height: 1300px;
+      
+         background-color: rgb(226, 248, 241);
+         margin-top: -66px;
+
+     }
+     .education-container h2{
+        font-size: 35px;
+    }
+    .education-section{
+        
+        color: rgb(230, 221, 221);
+         
+        background-image: url(../../Assets/Home/background3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        width: 1150px;
+        height: 850px;
+       
+        margin: 67px auto;
+        border-radius: 10px;
+      
+       box-shadow: 0px 0px 13px 11px rgb(144, 148, 147);
+    
+    }
+    .education-part1{
+       width: 49%;
+       height: 900px;
+     
+   }
+   
+   .education-duration{
+       margin: 132px 0px;
+       font-size: 30px;
+   }
+   
+   .education-part2{
+       
+       height: 810px;
+     
+       width: 10px;
+       background-color: rgba(255, 255, 255, 0.397);
+   
+     
+   
+   }
+   
+   .education-part2 .points{
+       height: 10px;
+       width: 9px;
+       border-radius: 20px;
+       background-color: whitesmoke;
+       box-shadow: 0px 0px 10px 5px rgb(236, 238, 238);
+       margin: 160px 0px;
+       
+   }
+   .education-part3{
+       width: 49%;
+       height: 900px;
+       
+     
+   }
+   
+   .education-location{
+       margin: 77px 0px;
+       font-size: 22px;
+
+   }
+
+} 
+*/
+/* ----------------------------------------------------------------------------- */
+@media screen and (max-width : 1000px){
+
+    .education-container{
+        text-align: center;
+         font-family: 'Baloo Bhaijaan 2', cursive;
+         margin-top: -41px;
+         /* display: flex; */
+         width: 1250px;
+         height: 1300px;
+         /* border: 2px solid red; */
+         background-color: rgb(226, 248, 241);
+     }
+     .education-container h2{
+         font-size: 50px;
+     }
+     .education-section{
+         
+         color: rgb(230, 221, 221);
+          
+         background-image: url(../../Assets/Home/background3.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         width: 1150px;
+         height: 970px;
+         /* border: 2px solid black; */
+         margin: 67px auto;
+         border-radius: 10px;
+         /* background-color: rgb(128, 197, 236); */
+        box-shadow: 0px 0px 13px 11px rgb(144, 148, 147);
+     
+     }
+     .education-part1{
+        width: 49%;
+        height: 900px;
+        /* border: 3px solid black; */
+        /* border: 2px solid yellow; */
+    }
+    
+    .education-duration{
+        margin: 132px 0px;
+        font-size: 30px;
+    }
+    
+    .education-part2{
+        
+        height: 890px;
+        /* border-left: 6px solid rgb(121, 104, 104); */
+        width: 10px;
+        background-color: rgba(255, 255, 255, 0.397);
+    
+        /* position: absolute; */
+        /* left: 616px; */
+    
+    }
+    
+    .education-part2 .points{
+        height: 10px;
+        width: 9px;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        box-shadow: 0px 0px 10px 5px rgb(236, 238, 238);
+        margin: 169px 0px;
+        
+    }
+    .education-part3{
+        width: 49%;
+        height: 900px;
+        
+        /* border: 3px solid blue; */
+    }
+    
+    .education-location{
+        margin: 77px 0px;
+        font-size: 25px;
+
+    }
+
+} 
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width : 750px){
+    .education-container{
+        text-align: center;
+         font-family: 'Baloo Bhaijaan 2', cursive;
+         /* display: flex; */
+         width: 1237px;
+         height: 2600px;
+         /* border: 2px solid red; */
+         background-color: rgb(226, 248, 241);
+         margin-top: -66px;
+
+     }
+     .education-container h2{
+         font-size: 80px;
+     }
+     .education-section{
+         
+         /* color: rgb(230, 221, 221); */
+         color: rgb(31, 29, 29);
+          
+         background-image: url(../../Assets/Home/background3.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         width: 1168;
+         height: 1900px;
+         /* border: 2px solid black; */
+         margin: 67px auto;
+         border-radius: 10px;
+         /* background-color: rgb(128, 197, 236); */
+        box-shadow: 0px 0px 13px 11px rgb(144, 148, 147);
+     
+     }
+     .education-part1{
+         width: 49%;
+         height: 1550px;
+         /* border: 3px solid black; */
+         /* border: 2px solid yellow; */
+     }
+     
+     .education-duration{
+         margin: 285px 0px;
+         font-size: 48px;
+     }
+     
+     .education-part2{
+         
+         height: 1500px;
+         /* border-left: 6px solid rgb(121, 104, 104); */
+         width: 10px;
+         background-color: rgba(255, 255, 255, 0.397);
+     
+         /* position: absolute; */
+         /* left: 616px; */
+     
+     }
+     
+     .education-part2 .points{
+         height: 10px;
+         width: 9px;
+         border-radius: 20px;
+         background-color: whitesmoke;
+         box-shadow: 0px 0px 10px 5px rgb(236, 238, 238);
+         margin: 344px 0px;
+         
+     }
+     .education-part3{
+         width: 49%;
+         height: 1600px;
+         
+         /* border: 3px solid blue; */
+     }
+     
+     .education-location{
+         margin: 59px 0px;
+         font-size: 43px;
+
+     }
+
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width : 450px){
+
+    .education-container{
+        text-align: center;
+         font-family: 'Baloo Bhaijaan 2', cursive;
+         /* display: flex; */
+         width: 1232px;
+         height: 2600px;
+         /* border: 2px solid red; */
+         background-color: rgb(226, 248, 241);
+         margin-top: -66px;
+
+     }
+     .education-container h2{
+         font-size: 80px;
+     }
+     .education-section{
+         
+         /* color: rgb(230, 221, 221); */
+         color: rgb(31, 29, 29);
+          
+         background-image: url(../../Assets/Home/background3.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         width: 1168;
+         height: 1900px;
+         /* border: 2px solid black; */
+         margin: 67px auto;
+         border-radius: 10px;
+         /* background-color: rgb(128, 197, 236); */
+        box-shadow: 0px 0px 13px 11px rgb(144, 148, 147);
+     
+     }
+     .education-part1{
+         width: 49%;
+         height: 1550px;
+         /* border: 3px solid black; */
+         /* border: 2px solid yellow; */
+     }
+     
+     .education-duration{
+         margin: 285px 0px;
+         font-size: 48px;
+     }
+     
+     .education-part2{
+         
+         height: 1500px;
+         /* border-left: 6px solid rgb(121, 104, 104); */
+         width: 10px;
+         background-color: rgba(255, 255, 255, 0.397);
+     
+         /* position: absolute; */
+         /* left: 616px; */
+     
+     }
+     
+     .education-part2 .points{
+         height: 10px;
+         width: 9px;
+         border-radius: 20px;
+         background-color: whitesmoke;
+         box-shadow: 0px 0px 10px 5px rgb(236, 238, 238);
+         margin: 344px 0px;
+         
+     }
+     .education-part3{
+         width: 49%;
+         height: 1600px;
+         
+         /* border: 3px solid blue; */
+     }
+     
+     .education-location{
+         margin: 59px 0px;
+         font-size: 43px;
+
+     }
+
+}
