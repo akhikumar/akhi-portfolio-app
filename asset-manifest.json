@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/akhi-portfolio-app/static/css/main.b5b3579d.css",
-    "main.js": "/akhi-portfolio-app/static/js/main.b0e3ae46.js",
+    "main.js": "/akhi-portfolio-app/static/js/main.4d64ff2a.js",
     "static/js/787.f806014b.chunk.js": "/akhi-portfolio-app/static/js/787.f806014b.chunk.js",
     "static/media/akhi-about-pic.jpg": "/akhi-portfolio-app/static/media/akhi-about-pic.d8b2ecdd0adeffdd95e8.jpg",
     "static/media/contact-image.jpg": "/akhi-portfolio-app/static/media/contact-image.bddc8749fc95421aeed5.jpg",
@@ -15,11 +15,11 @@
     "static/media/background3.jpg": "/akhi-portfolio-app/static/media/background3.e6eea86fb53c1d222e50.jpg",
     "index.html": "/akhi-portfolio-app/index.html",
     "main.b5b3579d.css.map": "/akhi-portfolio-app/static/css/main.b5b3579d.css.map",
-    "main.b0e3ae46.js.map": "/akhi-portfolio-app/static/js/main.b0e3ae46.js.map",
+    "main.4d64ff2a.js.map": "/akhi-portfolio-app/static/js/main.4d64ff2a.js.map",
     "787.f806014b.chunk.js.map": "/akhi-portfolio-app/static/js/787.f806014b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5b3579d.css",
-    "static/js/main.b0e3ae46.js"
+    "static/js/main.4d64ff2a.js"
   ]
 }
