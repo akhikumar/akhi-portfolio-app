@@ -61,7 +61,10 @@ export default function About() {
               </a>
             </div>
             <div className="about-btn">
-              <a href="../Assets/Home/resume.pdf" download="akhi-resume.pdf">
+              {/* <a href="../Assets/Home/resume.pdf" download="akhi-resume.pdf">
+                <button id="about-button2">Get Resume</button>
+              </a> */}
+              <a href="https://drive.google.com/file/d/1btdCcJn8Gc4TpS_f0VDPrCt717xLOXQ6/view?usp=sharing" target="_blank" download="akhi-resume.pdf">
                 <button id="about-button2">Get Resume</button>
               </a>
             </div>

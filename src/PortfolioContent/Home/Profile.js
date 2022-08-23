@@ -1,7 +1,16 @@
 import React from "react";
+import { saveAs } from "file-saver";
 import Typical from "react-typical";
 import "./Profile.css";
 export default function Profile() {
+    
+  const saveFile = () => {
+    saveAs(
+      "https://drive.google.com/file/d/1btdCcJn8Gc4TpS_f0VDPrCt717xLOXQ6/view",
+      "akhi-resume.pdf"
+    );
+  };
+
   return (
     <div className="profile-cotainer" id="home">
       <div className="profile-content">
@@ -26,7 +35,7 @@ export default function Profile() {
           </a>
           <a
             href="https://www.youtube.com/channel/UCUvxDJLAygSUn_ut_uHhMgQ"
-            target="_blank"
+            target="_blank" 
           >
             <i className="fa fa-youtube-square"></i>
           </a>
@@ -69,8 +78,12 @@ export default function Profile() {
             
           </div>
           <div className="btn">
-          <a href="../../Assets/Home/resume.pdf" download="akhi-resume.pdf"><button id="button-secondary">Get Resume</button></a>
+          {/* <a href="" ><button id="button-secondary" onClick={saveFile} >Get Resume</button></a> */}
+          <a href="https://drive.google.com/file/d/1btdCcJn8Gc4TpS_f0VDPrCt717xLOXQ6/view?usp=sharing" download="akhi-resume.pdf" target="_blank" ><button id="button-secondary"  >Get Resume</button></a>
           </div>
+          
+
+          
            
 
         </div>
